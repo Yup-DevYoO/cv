@@ -1,0 +1,275 @@
+body{margin:0; padding:0; background-color: #f4f4f4;}
+.container-fluid{margin: 0px; padding: 0px;}
+
+p{font-size: 1.5rem; margin-top: 2rem; padding: 0 1rem;}
+
+hr{
+  border: dashed #e1f2fb;
+  border-width: 0px 0px 5px;
+  width: 100px;
+}
+
+/* ***********title************* */
+
+/* navbar */
+#navbar-sec{width:100%; height:100vh; background: url('../image/Fashion/1.jpg') no-repeat fixed top; background-size: cover;}
+.navbar{background-color: none; backdrop-filter: blur(5px); padding: 0px 10%; margin:0;}
+
+.navbar-brand{font-size: 25px; color:black}
+
+/* image-section */
+.div1, .div4{width: 100%; height: 100vh;}
+
+.div3{width: 100%;}
+
+h1{font-size: 60px; color: white; margin:0px;}
+
+h2{color: black; text-align: center;}
+
+/* .div1{background: url('../image/Fashion/1.jpg') no-repeat fixed top; background-size: cover;} */
+
+.div1i{padding: 10rem 10%;}
+
+
+/* btns */
+.btn-product{background-color: gold; color: black; border-width: 0; margin: 3rem 0; padding: 0.2rem 2rem; font-size: 2rem; font-weight: 900;}
+
+.div3{background: url('../image/Fashion/5.jpg') no-repeat fixed center;background-size: cover;}
+
+/* -------------feature------------- */
+.div2{padding: 2rem 10%;}
+.img-4{width: 10rem; border-radius: 50%;}
+.frow{padding: 3rem 0;}
+i{font-size: 5rem; color: gold; transition: all 1s ease-in-out;}
+i:hover{ color: red;}
+.col-md-4{text-align: center; padding: 10px 0;}
+
+/* ------------ corosel----------- */
+/* .d-block{padding: 1rem 15%; background-color: gold;}
+.cor-img{width: 100%; height: 500px; object-fit: cover; object-position: top;} */
+
+/* -------------products------------ */
+#product{padding:3rem 10%; background-color: white;}
+.prow{padding: 1rem 0;}
+.col-md-5{padding-top: 1rem;}
+.pimg{width: 100%; height: 10rem; object-fit: cover; object-position: top;}
+
+/* PRODUCT-ROW */
+.pro-row{padding:2rem 0;}
+.ctitle{font-size: 2rem; padding: 1rem 0;}
+.ctext{padding: 0 0 1rem; margin:0;}
+.pro-row-body{padding: 2rem;}
+/* .card-body{padding: 10px 1rem 10px 3rem;} */
+
+.cinfo a {padding: 1rem 0;}
+
+.pall{padding:8% 10%; text-align: center;}
+.pall-btn{padding-top: 1rem;}
+
+
+/* ************This is round image effect************ */
+.ch-item {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  cursor: default;
+  box-shadow:
+    inset 0 0 0 0 rgba(200, 95, 66, 0.4),
+    /*Change the size of that gray cirle*/
+    inset 0 0 0 10px rgba(255, 255, 255, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.8s ease-in-out;
+}
+
+/* __ Backgroun image class __ */
+.ch-img-1 {
+  /* top/bottum/left/right shoul be changed by backend */
+  background: url('../image/Fashion/1.jpg') no-repeat top;
+  background-size: cover;
+}
+
+/* __ Info on hover class__ */
+.ch-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+  backface-visibility: hidden;
+}
+
+/* ****** h3 & p class ***** */
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 65px 0;
+  height: 110px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow:
+    0 0 1px #fff,
+    0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ch-info p a {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+  color: rgba(255, 242, 34, 0.8);
+}
+
+/* ***************************** */
+.ch-item:hover {
+  box-shadow:
+    inset 0 0 0 120px rgba(200, 95, 66, 0.4),
+    inset 0 0 0 12px rgba(255, 255, 255, 0.8),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ******************************** */
+.ch-item:hover .ch-info {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
+
+/* *******   Footer        ****** */
+#footer{padding: 2rem 8%; text-align: center;}
+
+.f-i{ background-color: white; display: inline-block; padding: 1rem; border-radius: 50%; border: 3px green solid; transition: all 0.7s ease-in-out;}
+.ficon{width: 5rem; height: 5rem;} 
+.f-i:hover{background-color: gold; border-color: black;}
+/* change for mobile use */
+
+.contact-col{padding-top: 50px;}
+.contact-col h1{padding: 15px; color: black; font-weight: bold; font-size: 3rem; background: rgba(255, 242, 34, 0.7); }
+.contact-col p{ padding-top: 15px; margin: 0;}
+.contact-col h3{padding: 10px; color: black; background: rgba(255, 242, 34, 0.7);}
+
+
+
+
+
+
+
+
+/* ***************myform**************** */
+
+.contact-box{width: 400px; background: rgba(255, 215, 0, 0.7);  color: ;transform: box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding: 60px 0 40px 0; }
+.myavatar{width: 100px; position: absolute; border-radius: 50%;
+ background-color: red; top: -50px; left: 150px;}
+    
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.contact-box input{
+    width: 100%;
+    margin-bottom: 0px;}
+    
+.contact-box input[type="text"], input[type="number"], input[type="email"], input[type="number"], textarea
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: rgba(255, 215, 0, 0.1);
+    outline: none;
+    height: 40px;
+    font-size: 16px;}
+    
+.contact-box input[type="submit"]
+{  width: 200px;
+   margin-top: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;}
+    
+.contact-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    /* background: #39dc79; */
+    background-color: black;
+    color: #fff;}
+
+.contact-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;}
+    
+.contact-box a:hover
+{color: #39dc79;}
+
+
+/* ***************** last ****************** */
+
+
+/* ***************** last ****************** */
+.license h6{font-size: 1rem;}
+
+
+
+@media (max-width: 500px) {
+  h1{font-size: 50px; color: white; margin:0px;}
+  
+  
+  #footer{padding: 2rem 0;}
+  
+  .contact-col{padding: 50px 0 0; margin:0;}
+  .contact-col h1{font-size: 2.5rem;}
+  .contact-box{width: 280px; padding: 30px 0 40px 0;}
+  .myavatar{width: 80px; top:-40px; left: 100px}
+  .textarea{width: 15rem; height:2rem;}
+  
+  .navbar{padding: 0 2%;}
+  .navbar-brand{font-size: 20px; color: red;}
+  .px-10{padding-left: 2px; padding-right: 2px;}
+  .fixed-top{position: static;}
+  
+  .license h6{font-size: 0.9rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

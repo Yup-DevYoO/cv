@@ -1,0 +1,249 @@
+* {margin: 0px; padding: 0;}
+body {margin: 0; padding: 0; background-color: #f4f4f4;}
+
+/*#f4f4f4 #cbe2b0 #fcf7bb #f9fcfb #eae7e7 #76b39d #155e63 */
+.container-fluid {margin: 0px; padding: 0px;}
+
+/* h3{letter-spacing: -1.5px; line-height: 1.05; padding:0; margin:0;} 
+
+p{font-size: 1.2rem; font-weight: bolder; margin:0; padding-top: 10px;} */
+p {font-size: 1.5rem; margin-top: 2rem; padding: 0 1rem;}
+
+.hr1 {border: dashed #e1f2fb; border-width: 0px 0px 5px; width: 100px; margin-left: auto; margin-right: auto; margin-top:0; margin-botom:0;}
+.hr2{background-color: red;  border: 0.6px solid green; opacity:0.5;
+  border-radius: 5px;}
+  
+
+/* ***********title************* */
+/* navbar */
+.navbar {padding: 0px 10%; margin: 0;}
+.navbar-brand {font-size: 25px;}
+.px-10{padding-left: 10%; padding-right: 10%;}
+
+
+/* btns */
+.btn-product {background-color: gold; color: black; border-width: 0; margin: 3rem 0; padding: 0.2rem 2rem; font-size: 2rem; font-weight: 900;}
+
+/* product-image Plz fixed the image size */
+#pro-image{padding: 30px 10% 10px 10%; text-align: center;}
+
+.carousel-indicators li{width: 80px; height: 80px; border-radius: 0; background: url('../image/Fashion/2.jpg') no-repeat top; background-size: contain; opacity: 0.8; margin:0; padding:0;}
+.carousel-indicators .active {opacity: 1; border: 1px green solid; border-radius: 5px;}
+.carousel-indicators{position:static; display: flex; -ms-flex-pack: center; justify-content: center; padding:0; margin:0; list-style: none;}
+.carousel-inner{padding-bottom: 2px;}
+.car-dots-img {width: 360px; height: 480px; background: url('../image/Fashion/2.jpg') no-repeat top; background-size: contain; display: inline-block;}
+.title{padding-top:10px;}
+
+/* product-discription(division) */
+.pro-dis p {padding: 10px 0; margin:0; font-size: 1.1rem;}
+
+/* product-detail */
+.pro-detail h3 {padding: 0px 0 10px;}
+.pro-table {padding: 0;}
+.pro-dis-list{column-count: 2; text-align: left; column-gap: 40px; padding:10px 0;}
+.pro-dis-list li{font-size: 0.8rem; list-style-type: square; list-style-position: inside; color:}
+
+/* *******   Footer   ****** */
+/* #footer {
+  padding: 2rem 8%;
+  text-align: center;
+}
+
+.cform {
+  padding: 2rem 0;
+}
+
+.f-i {
+  background-color: white;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 3px green solid;
+  transition: all 0.7s ease-in-out;
+}
+
+.ficon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.f-i:hover {
+  background-color: gold;
+  border-color: black;
+}*/
+
+/* change for mobile use */
+/* .contact-col {
+  padding-top: 50px;
+}
+
+.contact-col h1 {
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+  background: rgba(255, 242, 34, 0.7);
+}
+
+.contact-col p {
+  padding-top: 15px;
+  margin: 0;
+}  */
+
+
+/* --------------***Owl-Carousel***-------------- */
+#simi-pro{padding: 0.5rem 10%;}
+#simi-pro h3{padding: 1rem 0;}
+.simi-container{padding: 10px 0;}
+#owl-demo .item{padding: 0 3px; color: #FFF; text-align: center;}
+
+.owl-prev, .owl-next{position: absolute; top: 50%; transform: translateY(-50%);
+}
+/* h4{font-size: 1.5rem;} */
+.owl-prev{left: -1.2rem;}
+.owl-next{right: -1.2rem;}
+
+/* --------------card--------------- */
+.card{background: none; display: table; margin: auto; width:180px}
+.card-img-top{width: 180px; height:210px; object-fit: cover; background-position: bottom;}
+.card-body{padding:8px 4%; background: none;}
+.card-title{padding:0 0 4px; margin:0; color:green;}
+.card-text{padding:1px 0 10px; margin:0; font-size: 0.9rem;}
+
+/* ----------All-categories-------------- */
+#cat{padding: 0.5rem 10%;}
+#cat h3{padding: 1rem 0;}
+#cat hr{margin-top:0;}
+
+
+/* ************This is round image effect************ */
+.ch-item {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  cursor: default;
+  box-shadow:
+    inset 0 0 0 0 rgba(200, 95, 66, 0.4),
+    /*Change the size of that gray cirle*/
+    inset 0 0 0 10px rgba(255, 255, 255, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.8s ease-in-out;
+}
+
+/* __ Backgroun image class __ */
+/* .ch-img-1 {
+  /* top/bottum/left/right shoul be changed by backend */
+  background: url('../image/Fashion/1.jpg') no-repeat top;
+  background-size: cover;
+} */
+
+/* __ Info on hover class__ */
+/* .ch-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+  backface-visibility: hidden;
+} */
+
+/* ****** h3 & p class ***** */
+/* .ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 65px 0;
+  height: 110px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow:
+    0 0 1px #fff,
+    0 1px 2px rgba(0, 0, 0, 0.3);}
+
+.ch-info p {color: #fff; padding: 10px 5px; font-style: italic; margin: 0 30px; font-size: 12px; border-top: 1px solid rgba(255, 255, 255, 0.5);}
+
+.ch-info p a {display: block; color: rgba(255, 255, 255, 0.7); font-style: normal; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 1px; padding-top: 4px; font-family: 'Open Sans', Arial, sans-serif;}
+
+.ch-info p a:hover {color: rgba(255, 242, 34, 0.8);} */
+
+/* ***************************** */
+/* .ch-item:hover {box-shadow: inset 0 0 0 120px rgba(200, 95, 66, 0.4), inset 0 0 0 12px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.1);} */
+
+/* ******************************** */
+/* .ch-item:hover .ch-info {opacity: 1; transform: scale(1);} */
+
+
+
+
+
+/* ***************** last ****************** */
+.license h6{font-size: 1rem;}
+.license{background: #155e63}
+
+/* --------------  Mobile  ------------- */
+/* @media(max-width: 720px) {
+
+} */
+@media (max-width: 600px) {
+  .simi-container{padding: 10px 0;}
+  .card{width: 150px;}
+  /* Upper-Side */
+  #pro-image {padding: 30px 5% 10px 5%;}
+  #product {padding: 30px 0;}
+  h1{font-size: 50px; color: white; margin:0px;}
+  
+  
+  .navbar{padding: 0 2%;}
+  .navbar-brand{font-size: 20px;}
+  .px-10{padding-left: 2px; padding-right: 2px;}
+  .fixed-top{position: static;}
+    
+  .liesence h6{font-size: 0.9rem;}
+  
+  .car-dots-img {
+    width: 288px;
+    height: 336px;
+  }
+}
+@media (max-width: 800px){
+  .simi-container{padding:10px 5%;}
+  #simi-pro{padding: 0.5rem 0;}
+  
+  .cat-container{padding:10px 5%;}
+  #cat{padding: 0.5rem 0;}
+  
+  
+  .license h6{font-size: 0.9rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+*{margin: 0px; padding: 0;}
+body{margin:0; padding:0; background-color: #f4f4f4;}
+.container-fluid{margin: 0px; padding: 0px;}
+/* h3{letter-spacing: -1.5px; line-height: 1.05; padding:0; margin:0;} 
+p{font-size: 1.2rem; font-weight: bolder; margin:0; padding-top: 10px;} */
+p{font-size: 1.5rem; margin-top: 1rem; padding: 0 1rem;}
+.text-muted{font-weight: light; color:gray; opacity:0.4; padding-top: 3px; margin:0;}
+hr{border: dashed #e1f2fb; border-width: 0px 0px 5px; width: 100px; margin-left: auto; margin-right: auto;}
+
+/* ***********title************* */
+/* navbar */
+
+.navbar{background-color: gold; padding: 0px 10%; margin:0;}
+.navbar-brand{font-size: 30px;}
+
+/* -------------carousel-effect------------------ */
+
+
+/* ------------------carousel-section--------------------- */
+/* image-section */
+.car-img{width: 100%; height: 100vh;}
+h1{font-size: 60px; color: white; margin:0px;}
+h2{color: black; text-align: center;}
+.car-img{object-fit: cover; object-position: top;}
+
+.carousel-caption{text-align: left;}
+
+
+/* btns */
+.btn-product{background-color: gold; color: black; border-width: 0; margin: 3rem 0; padding: 0.2rem 2rem; font-size: 2rem; font-weight: 900;}
+.div3{background: url('../image/Fashion/5.jpg') no-repeat fixed center;background-size: cover;}
+
+
+/* ------------------categories-section-------------- */
+#cat-sec{padding: 2rem 10%;}
+#cat-sec hr{margin-bottom: 4rem;}
+
+
+
+
+
+
+/* ************This is round image effect************ */
+.ch-item {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  cursor: default;
+  box-shadow:
+    inset 0 0 0 0 rgba(200, 95, 66, 0.4),
+    /*Change the size of that gray cirle*/
+    inset 0 0 0 10px rgba(255, 255, 255, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.8s ease-in-out;
+  display: inline-block;
+}
+
+/* __ Backgroun image class __ */
+.ch-img-1 {
+  /* top/bottum/left/right shoul be changed by backend */
+  background: url('../image/Fashion/1.jpg') no-repeat top;
+  background-size: cover;
+}
+
+/* __ Info on hover class__ */
+.ch-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+  backface-visibility: hidden;
+}
+
+/* ****** h3 & p class ***** */
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 65px 0;
+  height: 110px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow:
+    0 0 1px #fff,
+    0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ch-info p a {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+  color: rgba(255, 242, 34, 0.8);
+}
+
+/* ***************************** */
+.ch-item:hover {
+  box-shadow:
+    inset 0 0 0 120px rgba(200, 95, 66, 0.4),
+    inset 0 0 0 12px rgba(255, 255, 255, 0.8),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ******************************** */
+.ch-item:hover .ch-info {
+  opacity: 1;
+  transform: scale(1);
+}
+ 
+.ctitle, .ctext{padding:1rem 0; margin:0;}
+
+
+/* ----------------For tablat and mobile--------------- */
+@media (max-width: 800px) {
+  h1{font-size: 50px; color: white; margin:0px;}
+  
+  
+  #footer{padding: 2rem 0;}
+  
+  /* .contact-col{padding: 50px 0 0; margin:0;}
+  .contact-col h1{font-size: 2.5rem;}
+  .contact-box{width: 280px; padding: 30px 0 40px 0;}
+  .myavatar{width: 80px; top:-40px; left: 100px}
+  .textarea{width: 15rem; height:2rem;} */
+  .cat-img{text-align: center !important;}
+  
+  .navbar{padding: 0 2%;}
+  .navbar-brand{font-size: 20px; color: red;}
+  
+  .license h6{font-size: 0.9rem;}
+}
+
+
+
+
+
+
+
+
+
+
+

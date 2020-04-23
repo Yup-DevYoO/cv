@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Item</title>
+  <!-- ********bootstrap and css******** -->
+  <!-- <link rel="stylesheet" href="F:\Web Devlopment\bootstrap-4.4.1-dist\css\bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href="css\bootstrap\bootstrap.css">
+
+
+  <!-- *****owl-carousel css***** -->
+  <link rel="stylesheet" href="css\OwlCss\owl.carousel.css">
+  <link rel="stylesheet" href="css\OwlCss\owl.theme.default.min.css">
+  <link rel="stylesheet" href="css\OwlCss\owl.theme.green.css">
+
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/singleitem.css">
+
+</head>
+
+<body>
+  <section id="heading">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Student Showroom</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section id="pro-image">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="corExInd" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-100">
+                <div class="car-dots-img">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100">
+                <div class="car-dots-img">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100">
+                <div class="car-dots-img">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ol class="carousel-indicators">
+            <li data-target="#corExInd" data-slide-to="0" class="active"></li>
+            <li data-target="#corExInd" data-slide-to="1"></li>
+            <li data-target="#corExInd" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-left">
+        <!-- product-discription -->
+        <div class="title">
+          <h3 class="text-success">BLUE SHUT PENT</h3> <!-- backend -->
+        </div>
+
+        <div class="pro-dis">
+          <p>high quality cotton fabric we have this in three color and also good fitting. baki tum soch loo , smjhe.</p> <!-- backend -->
+        </div>
+        <a href="#" class="btn btn-sm m-2 btn-outline-success mx-2">f</a>
+        <a href="#" class="btn btn-sm m-2 btn-outline-dark mx-2">a</a>
+  
+        <hr class="hr2">
+        <div class="pro-detail">
+          <h3>DETAIL</h3>
+
+          <!--Table-->
+          <div class="pro-table">
+            <ul class="pro-dis-list">
+              <li>Colour - Blue</li>
+              <li>Style-220048088-1</li>
+              <li>Brand - Monte Carlo</li>
+              <li>Fabric - Viscose</li>
+              <li>Fit - Regular</li>
+              <li>Pattern - Printed</li>
+              <li>Trend - Fashion</li>
+              <li>Sleeve - Short Sleeve</li>
+              <li>Occassion - Casual</li>
+              <li>Neck - Round Neck</li>
+              <li>Unit - 1</li>
+              <li>Commodity - Top</li>
+              <li>Net Quantity &nbsp; 1 N</li>
+              <li>MRP - <i class="fa fa-rupee"></i>1,445.00<br>(Incl. of all taxes)</li>
+              <!-- 	<li>Customer Care - </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- similar product -->
+  <section id="simi-pro" class="bg-light text-center">
+    <hr class="hr2 my-3">
+
+    <h3>SIMILAR PRODUCT</h3>
+    <div class="simi-container">
+      <div id="owl-demo" class="owl-carousel owl-theme owl-loaded">
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a href="#">
+            <div class="card">
+              <img src="image\Fashion\2.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Shirt</h5>
+                <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+                <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <div class="card">
+            <img src="image\Fashion\4.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\5.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\6.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\7.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn btn-outline-dark rounded-0 btn-lg">Watch more -></a>
+  </section>
+
+
+  <!-- *************categories************ -->
+  <section id="cat" class="text-center">
+    <hr class="hr2 my-3">
+    <h3>All CATEGORIES</h3>
+    <div class="cat-container">
+
+      <div id="owl-demo" class="owl-carousel owl-theme owl-loaded">
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">KURTA</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a href="#">
+            <div class="card">
+              <img src="image\Fashion\2.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">SHOTE</h5>
+                <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+                <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <div class="card">
+            <img src="image\Fashion\4.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">PENT</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\5.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">SHIRT</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\6.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">COAT</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="image\Fashion\7.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">TIE</h5>
+              <p class="card-text text-center text-success">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Watch it</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="btn btn-dark rounded-0 btn-lg">Watch ALL -></a>
+  </section>
+
+  <div class="license d-flex justify-content-center text-light">
+    <h6>All rights are reserved by @rahuldev</h6>
+  </div>
+  <!-- bootstrap.js  -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    < link href = "https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap"
+    rel = "stylesheet" >
+  </script>
+
+  <!-- font awesome -->
+  <!-- fontawesome-icon -->
+  <script src="https://kit.fontawesome.com/1e583b9565.js" crossorigin="anonymous"></script>
+
+  <script src="js/OwlJs/owl.carousel.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        nav: true,
+        navElement: true,
+        navText: ["<h4><</h4>", "<h4>></h4>"],
+        dots: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 2,
+          },
+
+          500: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+          1200: {
+            items: 5,
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
